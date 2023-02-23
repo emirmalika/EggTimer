@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8F2012B629A66141002D32AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2012B529A66141002D32AB /* AppDelegate.swift */; };
-		8F2012BA29A66141002D32AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2012B929A66141002D32AB /* ViewController.swift */; };
+		8F2012BA29A66141002D32AB /* EggsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2012B929A66141002D32AB /* EggsViewController.swift */; };
 		8F2012BF29A66144002D32AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F2012BE29A66144002D32AB /* Assets.xcassets */; };
 		8F2012C229A66144002D32AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F2012C029A66144002D32AB /* LaunchScreen.storyboard */; };
+		8F2012CD29A66344002D32AB /* EggsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2012CC29A66344002D32AB /* EggsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F2012B229A66141002D32AB /* EggTimer-IOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EggTimer-IOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F2012B529A66141002D32AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F2012B929A66141002D32AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F2012B929A66141002D32AB /* EggsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsViewController.swift; sourceTree = "<group>"; };
 		8F2012BE29A66144002D32AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F2012C129A66144002D32AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F2012C329A66144002D32AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F2012CC29A66344002D32AB /* EggsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +54,30 @@
 		8F2012B429A66141002D32AB /* EggTimer-IOS13 */ = {
 			isa = PBXGroup;
 			children = (
+				8F2012CB29A6632C002D32AB /* Eggs */,
+				8F2012C929A6630F002D32AB /* Supporting Files */,
 				8F2012B529A66141002D32AB /* AppDelegate.swift */,
-				8F2012B929A66141002D32AB /* ViewController.swift */,
-				8F2012BE29A66144002D32AB /* Assets.xcassets */,
-				8F2012C029A66144002D32AB /* LaunchScreen.storyboard */,
-				8F2012C329A66144002D32AB /* Info.plist */,
 			);
 			path = "EggTimer-IOS13";
+			sourceTree = "<group>";
+		};
+		8F2012C929A6630F002D32AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F2012C029A66144002D32AB /* LaunchScreen.storyboard */,
+				8F2012BE29A66144002D32AB /* Assets.xcassets */,
+				8F2012C329A66144002D32AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F2012CB29A6632C002D32AB /* Eggs */ = {
+			isa = PBXGroup;
+			children = (
+				8F2012CC29A66344002D32AB /* EggsView.swift */,
+				8F2012B929A66141002D32AB /* EggsViewController.swift */,
+			);
+			name = Eggs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F2012BA29A66141002D32AB /* ViewController.swift in Sources */,
+				8F2012BA29A66141002D32AB /* EggsViewController.swift in Sources */,
+				8F2012CD29A66344002D32AB /* EggsView.swift in Sources */,
 				8F2012B629A66141002D32AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
